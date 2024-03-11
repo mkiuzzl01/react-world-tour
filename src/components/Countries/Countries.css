@@ -1,0 +1,17 @@
+.Countries-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+
+}
+.country-flag{
+    width:100px;
+}
+.visited-country{
+    display: flex;
+    gap: 20px;
+}
+.visited-country-li{
+    border: 2px solid skyblue;
+    padding:10px;
+}
